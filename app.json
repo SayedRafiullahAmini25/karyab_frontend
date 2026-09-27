@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "کاریاب",
+    "slug": "karyab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.rafi.karyab"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-navigation-bar",
+        {
+          "visibility": "hidden",
+          "enforceContrast": false
+        }
+      ]
+    ],
+    "extra": {
+      "expo-navigation-bar": {
+        "visibility": "hidden",
+        "enforceContrast": false
+      },
+      "eas": {
+        "projectId": "ca4d9cc4-1cb3-4503-9bbc-d721a77b6be1"
+      }
+    },
+    "owner": "rafi_amini"
+  }
+}
